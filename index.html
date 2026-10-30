@@ -153,6 +153,16 @@
             border-top: 5px solid var(--uk-blue);
         }
 
+        .module-card.bonus-module {
+            border-top: 5px solid var(--accent-gold);
+        }
+
+        .module-card.bonus-module .module-badge {
+            background: var(--accent-gold);
+            color: #fff;
+            text-shadow: 1px 1px 2px rgba(0,0,0,0.2);
+        }
+
         .module-header {
             margin-bottom: 30px;
             border-bottom: 2px solid #f0f0f0;
@@ -203,6 +213,11 @@
             transform: translateX(5px);
             box-shadow: 5px 5px 15px rgba(0,0,0,0.05);
         }
+        
+        .bonus-module .lesson-item:hover {
+            border-color: var(--accent-gold);
+            background: #fffcf5;
+        }
 
         .lesson-icon {
             width: 45px;
@@ -222,6 +237,11 @@
 
         .lesson-item:hover .lesson-icon {
             background: var(--uk-red);
+            color: white;
+        }
+
+        .bonus-module .lesson-item:hover .lesson-icon {
+            background: var(--accent-gold);
             color: white;
         }
 
@@ -277,6 +297,7 @@
     </header>
 
     <div class="container">
+        
         <!-- ALERTA DE COMPATIBILIDADE -->
         <div class="alert-box">
             <h4>🔊 Compatibilidade de áudio</h4>
@@ -549,6 +570,72 @@
                 <a href="https://espaco-liberdade.github.io/inglesipa48" class="lesson-item"><div class="lesson-icon">48</div><div class="lesson-info"><span class="lesson-label">Lesson</span><span class="lesson-name">Comunicação Persuasiva e Negociação</span></div></a>
                 <a href="https://espaco-liberdade.github.io/inglesipa49" class="lesson-item"><div class="lesson-icon">49</div><div class="lesson-info"><span class="lesson-label">Lesson</span><span class="lesson-name">Teste Seus Conhecimentos (Quiz Final)</span></div></a>
                 <a href="https://espaco-liberdade.github.io/inglesipa50" class="lesson-item"><div class="lesson-icon">50</div><div class="lesson-info"><span class="lesson-label">Lesson</span><span class="lesson-name">Encerramento e Próximos Passos</span></div></a>
+            </div>
+        </div>
+
+        <!-- MÓDULO EXTRAS (NOVO) -->
+        <div class="module-card bonus-module">
+            <div class="module-header">
+                <span class="module-badge">Módulo Bônus</span>
+                <h2 class="module-title">Aulas Extras</h2>
+            </div>
+            <div class="lessons-grid">
+                <a href="https://espaco-liberdade.github.io/inglesipaextra1.1/" class="lesson-item">
+                    <div class="lesson-icon">★</div>
+                    <div class="lesson-info">
+                        <span class="lesson-label">Extra 1.1</span>
+                        <span class="lesson-name">Conjugações dos Verbos Mais Usados 1</span>
+                    </div>
+                </a>
+                <a href="https://espaco-liberdade.github.io/inglesipaextra1.2/" class="lesson-item">
+                    <div class="lesson-icon">★</div>
+                    <div class="lesson-info">
+                        <span class="lesson-label">Extra 1.2</span>
+                        <span class="lesson-name">Conjugações dos Verbos Mais Usados 2</span>
+                    </div>
+                </a>
+                <a href="https://espaco-liberdade.github.io/inglesipaextra1.3/" class="lesson-item">
+                    <div class="lesson-icon">★</div>
+                    <div class="lesson-info">
+                        <span class="lesson-label">Extra 1.3</span>
+                        <span class="lesson-name">Conjugações dos Verbos Mais Usados 3</span>
+                    </div>
+                </a>
+                <a href="https://espaco-liberdade.github.io/inglesipaextra2" class="lesson-item">
+                    <div class="lesson-icon">★</div>
+                    <div class="lesson-info">
+                        <span class="lesson-label">Extra 2</span>
+                        <span class="lesson-name">Aula Extra - Preposições</span>
+                    </div>
+                </a>
+                <a href="https://espaco-liberdade.github.io/inglesipaextra3" class="lesson-item">
+                    <div class="lesson-icon">★</div>
+                    <div class="lesson-info">
+                        <span class="lesson-label">Extra 3</span>
+                        <span class="lesson-name">Tabela de Verbos Irregulares</span>
+                    </div>
+                </a>
+                <a href="https://espaco-liberdade.github.io/inglesipaextra4/" class="lesson-item">
+                    <div class="lesson-icon">★</div>
+                    <div class="lesson-info">
+                        <span class="lesson-label">Extra 4</span>
+                        <span class="lesson-name">Conectivos em Inglês: Tabela de Conjunções</span>
+                    </div>
+                </a>
+                <a href="https://espaco-liberdade.github.io/inglesipaextra5" class="lesson-item">
+                    <div class="lesson-icon">★</div>
+                    <div class="lesson-info">
+                        <span class="lesson-label">Extra 5</span>
+                        <span class="lesson-name">Os Mais Difíceis para Conjugar</span>
+                    </div>
+                </a>
+                <a href="https://espaco-liberdade.github.io/inglesipaextra6" class="lesson-item">
+                    <div class="lesson-icon">★</div>
+                    <div class="lesson-info">
+                        <span class="lesson-label">Extra 6</span>
+                        <span class="lesson-name">Treinando o Ouvido</span>
+                    </div>
+                </a>
             </div>
         </div>
 
